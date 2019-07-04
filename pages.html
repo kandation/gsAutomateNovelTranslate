@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <base target="_top">
+</head>
+
+<body>   
+    <?=tempe.parameter.pages?>
+    <?
+        function showContent(){
+            if (!tempe.parameter.pages) {return getAllPositionedImages(0);}
+            else{
+                page_id=tempe.parameter.pages; return getAllPositionedImages(tempe.parameter.pages);
+            }
+        }
+    ?>
+    <?!=showContent();?>
+    <?var url = getScriptUrl();?><a href='<?=url?>?pages=<?=parseInt(page_id)-1?>'>Prev Page<?=parseInt(page_id)-1?></a> |
+    <?var url = getScriptUrl();?><a href='<?=url?>?pages=<?=parseInt(page_id)+1?>'>Next Page<?=parseInt(page_id)+1?></a>
+    
+
+
+
+</body>
+</html>
