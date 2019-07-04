@@ -15,3 +15,6 @@ In the past, I use copy and paste to google translate. It tries.
 
 # Screenshot
 ![Screenshot](https://raw.githubusercontent.com/kandation/gsAutomateNovelTranslate/master/ssnv.png)
+
+# Try with Yourself
+https://script.google.com/macros/s/AKfycbxftgNczpq0FNJvJDb97sk4U608xYjtRlUhvUjyVmALWI6WuzQ/exec
