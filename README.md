@@ -14,4 +14,4 @@ In the past, I use copy and paste to google translate. It tries.
 6. Fin
 
 # Screenshot
-
+![Screenshot](https://raw.githubusercontent.com/kandation/gsAutomateNovelTranslate/master/ssnv.png)
